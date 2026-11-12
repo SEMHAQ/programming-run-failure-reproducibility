@@ -22,12 +22,12 @@ def save(fig,name):
 colors={'2019':'#0F4D92','2021':'#B64342'}
 
 fig,ax=plt.subplots(figsize=(7.2,2.4)); ax.set_xlim(0,1); ax.set_ylim(0,1); ax.axis('off')
-boxes=[(.01,.56,.27,.35,'Public event logs\n2019 Phanon / 2021 PyCharm'),
-       (.365,.56,.27,.35,'Replay edits at run events\nRecorded-clean flag kept separate'),
-       (.72,.56,.27,.35,'Outcome linkage and filtering\nExclude ambiguous 2021 matches'),
-       (.01,.06,.27,.32,'Event membership manifests\nIndependent LLM sampling arms'),
-       (.365,.06,.27,.32,'Student-disjoint prediction\nNested fusion / history ablation'),
-       (.72,.06,.27,.32,'Within-assignment AUC\nPaired student bootstrap intervals')]
+boxes=[(.01,.56,.27,.35,'Public event logs\n2019 Phanon\n2021 PyCharm'),
+       (.365,.56,.27,.35,'Replay edits at runs\nKeep recorded-clean\nflag separate'),
+       (.72,.56,.27,.35,'Outcome linkage\nExclude ambiguous\n2021 matches'),
+       (.01,.06,.27,.32,'Membership manifests\nIndependent all-runs\nand clean LLM draws'),
+       (.365,.06,.27,.32,'Student-disjoint fits\nNested fusion\nHistory ablations'),
+       (.72,.06,.27,.32,'Within-assignment AUC\nPaired student\nbootstrap intervals')]
 for x,y,w,h,label in boxes:
     ax.add_patch(FancyBboxPatch((x,y),w,h,boxstyle='round,pad=.006',linewidth=1,
                               edgecolor='#0F4D92',facecolor='#EDF3F8'))
@@ -80,7 +80,8 @@ for ax,cohort in zip(axes,['2019','2021']):
     ax.axvline(0,color='#767676',ls='--',lw=.8)
     ax.set_yticks([0,1,2],['7B','14B','32B']); ax.invert_yaxis(); ax.set_title(cohort)
     ax.set_xlabel('Change from raw LLM AUC'); ax.set_xlim(-.23,.16)
-axes[1].legend(loc='lower right',fontsize=8)
-fig.tight_layout(pad=.7,w_pad=1.5)
+handles,legend_labels=axes[1].get_legend_handles_labels()
+fig.legend(handles,legend_labels,loc='lower center',bbox_to_anchor=(.5,-.01),ncol=2,fontsize=8)
+fig.tight_layout(pad=.7,w_pad=1.5,rect=(0,.1,1,1))
 save(fig,'fusion_revision')
 print('Generated four vector figures with 300 dpi PNG previews')
