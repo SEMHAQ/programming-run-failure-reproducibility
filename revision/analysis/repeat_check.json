@@ -1,0 +1,90 @@
+{
+  "3B": {
+    "n_items": 10,
+    "requests": 20,
+    "score_comparable": 10,
+    "identical_answer": 10,
+    "identical_score": 1,
+    "max_abs_score_difference": 0.06533650748132908,
+    "latency_median_s": 2.100992949679494,
+    "latency_p25_s": 2.083830774296075,
+    "latency_p75_s": 2.160567798651755,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "3.1B",
+      "quantization_level": "Q4_K_M"
+    },
+    "parameters": null
+  },
+  "7B": {
+    "n_items": 10,
+    "requests": 20,
+    "score_comparable": 10,
+    "identical_answer": 10,
+    "identical_score": 1,
+    "max_abs_score_difference": 0.03933720231797275,
+    "latency_median_s": 2.1317810993641615,
+    "latency_p25_s": 2.116673248820007,
+    "latency_p75_s": 2.2383408998139203,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "7.6B",
+      "quantization_level": "Q4_K_M"
+    },
+    "parameters": "num_ctx                        8192\ntemperature                    0"
+  },
+  "14B": {
+    "n_items": 10,
+    "requests": 20,
+    "score_comparable": 10,
+    "identical_answer": 4,
+    "identical_score": 1,
+    "max_abs_score_difference": 0.06929131632779989,
+    "latency_median_s": 4.082278800196946,
+    "latency_p25_s": 3.6898476504720747,
+    "latency_p75_s": 4.440400298684835,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "14.8B",
+      "quantization_level": "Q4_K_M"
+    },
+    "parameters": "num_ctx                        8192\ntemperature                    0"
+  },
+  "32B": {
+    "n_items": 10,
+    "requests": 20,
+    "score_comparable": 10,
+    "identical_answer": 8,
+    "identical_score": 1,
+    "max_abs_score_difference": 0.0576255255793231,
+    "latency_median_s": 4.745453950017691,
+    "latency_p25_s": 2.352458950597793,
+    "latency_p75_s": 7.201096275355667,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "32.8B",
+      "quantization_level": "Q4_K_M"
+    },
+    "parameters": "num_ctx                        8192\ntemperature                    0"
+  }
+}

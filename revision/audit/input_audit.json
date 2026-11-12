@@ -1,0 +1,227 @@
+{
+  "2019": {
+    "snapshots": 32997,
+    "eligible": 29457,
+    "raw_outcomes": {
+      "null": 32997
+    },
+    "match": {
+      "null": 32997
+    },
+    "terminated": 3540,
+    "clean": 20887,
+    "students": 242,
+    "success": 17888,
+    "failure": 11569,
+    "sampling_pool": 32977,
+    "intended_all": 1000,
+    "intended_clean": 1000,
+    "overlap": 22,
+    "caches": {
+      "3B": {
+        "rows": 2000,
+        "unique_ids": 1978,
+        "valid_unique": 1978,
+        "scored_rows": 2000,
+        "duplicates": 22,
+        "duplicate_scores_differ": 18,
+        "arms": {
+          "comp": 1022,
+          "all": 978
+        },
+        "invalid_rows": 0,
+        "all_ids_match_intended_union": true,
+        "ids_outside_intended_union": 0,
+        "intended_union_missing": 0,
+        "stored_arm_inconsistent": 0,
+        "all_arm_contains_clean": 624
+      },
+      "7B": {
+        "rows": 2000,
+        "unique_ids": 1978,
+        "valid_unique": 1978,
+        "scored_rows": 2000,
+        "duplicates": 22,
+        "duplicate_scores_differ": 17,
+        "arms": {
+          "comp": 1022,
+          "all": 978
+        },
+        "invalid_rows": 0,
+        "all_ids_match_intended_union": true,
+        "ids_outside_intended_union": 0,
+        "intended_union_missing": 0,
+        "stored_arm_inconsistent": 0,
+        "all_arm_contains_clean": 624
+      },
+      "14B": {
+        "rows": 2000,
+        "unique_ids": 1978,
+        "valid_unique": 1978,
+        "scored_rows": 2000,
+        "duplicates": 22,
+        "duplicate_scores_differ": 22,
+        "arms": {
+          "comp": 1022,
+          "all": 978
+        },
+        "invalid_rows": 0,
+        "all_ids_match_intended_union": true,
+        "ids_outside_intended_union": 0,
+        "intended_union_missing": 0,
+        "stored_arm_inconsistent": 0,
+        "all_arm_contains_clean": 624
+      },
+      "32B": {
+        "rows": 1978,
+        "unique_ids": 1978,
+        "valid_unique": 1978,
+        "scored_rows": 1978,
+        "duplicates": 0,
+        "duplicate_scores_differ": 0,
+        "arms": {
+          "comp": 1000,
+          "all": 978
+        },
+        "invalid_rows": 0,
+        "all_ids_match_intended_union": true,
+        "ids_outside_intended_union": 0,
+        "intended_union_missing": 0,
+        "stored_arm_inconsistent": 0,
+        "all_arm_contains_clean": 624
+      }
+    },
+    "duplicate_union": 22,
+    "common_eligible_unique": 1745,
+    "common_clean": 1483,
+    "intended_all_retained": 886,
+    "intended_clean_retained": 859,
+    "common_assignments": {
+      "p8f": 477,
+      "p6f": 466,
+      "p7f": 607,
+      "p4f": 134,
+      "p5f": 61
+    },
+    "all_arm_clean_retained": 624,
+    "run_parse_agreement": 0.9792239535594256,
+    "clean_parse_mismatch": 586
+  },
+  "2021": {
+    "snapshots": 54129,
+    "eligible": 17371,
+    "raw_outcomes": {
+      "err": 7846,
+      "": 28156,
+      "killed": 4160,
+      "ok": 9525,
+      "unknown": 4442
+    },
+    "match": {
+      "exact": 25973,
+      "near": 26183,
+      "none": 1973
+    },
+    "terminated": 0,
+    "clean": 14990,
+    "students": 43,
+    "success": 9525,
+    "failure": 7846,
+    "sampling_pool": 17371,
+    "intended_all": 1000,
+    "intended_clean": 1000,
+    "overlap": 69,
+    "caches": {
+      "3B": {
+        "rows": 2000,
+        "unique_ids": 1931,
+        "valid_unique": 1931,
+        "scored_rows": 2000,
+        "duplicates": 69,
+        "duplicate_scores_differ": 56,
+        "arms": {
+          "comp": 1069,
+          "all": 931
+        },
+        "invalid_rows": 0,
+        "all_ids_match_intended_union": true,
+        "ids_outside_intended_union": 0,
+        "intended_union_missing": 0,
+        "stored_arm_inconsistent": 0,
+        "all_arm_contains_clean": 793
+      },
+      "7B": {
+        "rows": 2000,
+        "unique_ids": 1931,
+        "valid_unique": 1931,
+        "scored_rows": 2000,
+        "duplicates": 69,
+        "duplicate_scores_differ": 58,
+        "arms": {
+          "comp": 1069,
+          "all": 931
+        },
+        "invalid_rows": 0,
+        "all_ids_match_intended_union": true,
+        "ids_outside_intended_union": 0,
+        "intended_union_missing": 0,
+        "stored_arm_inconsistent": 0,
+        "all_arm_contains_clean": 793
+      },
+      "14B": {
+        "rows": 2000,
+        "unique_ids": 1931,
+        "valid_unique": 1931,
+        "scored_rows": 2000,
+        "duplicates": 69,
+        "duplicate_scores_differ": 61,
+        "arms": {
+          "comp": 1069,
+          "all": 931
+        },
+        "invalid_rows": 0,
+        "all_ids_match_intended_union": true,
+        "ids_outside_intended_union": 0,
+        "intended_union_missing": 0,
+        "stored_arm_inconsistent": 0,
+        "all_arm_contains_clean": 793
+      },
+      "32B": {
+        "rows": 1931,
+        "unique_ids": 1931,
+        "valid_unique": 1931,
+        "scored_rows": 1931,
+        "duplicates": 0,
+        "duplicate_scores_differ": 0,
+        "arms": {
+          "comp": 1000,
+          "all": 931
+        },
+        "invalid_rows": 0,
+        "all_ids_match_intended_union": true,
+        "ids_outside_intended_union": 0,
+        "intended_union_missing": 0,
+        "stored_arm_inconsistent": 0,
+        "all_arm_contains_clean": 793
+      }
+    },
+    "duplicate_union": 69,
+    "common_eligible_unique": 1862,
+    "common_clean": 1724,
+    "intended_all_retained": 931,
+    "intended_clean_retained": 931,
+    "common_assignments": {
+      "Assign10": 185,
+      "Assign11": 121,
+      "Assign12": 165,
+      "Assign13": 104,
+      "Assign7": 492,
+      "Assign8": 177,
+      "Assign6": 439,
+      "Assign9": 179
+    },
+    "all_arm_clean_retained": 793,
+    "run_parse_agreement": 0.9955673248517645,
+    "clean_parse_mismatch": 0
+  }
+}

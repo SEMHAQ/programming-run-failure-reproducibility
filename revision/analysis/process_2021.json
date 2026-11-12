@@ -1,0 +1,824 @@
+{
+  "all": {
+    "n": 16489,
+    "students": 43,
+    "failure_rate": 0.4549699799866578,
+    "metrics": {
+      "process": {
+        "auc": 0.6416782534839662,
+        "lo": 0.6094763805306735,
+        "hi": 0.665545709954406,
+        "bootstrap_valid": 2000
+      },
+      "syntax_free": {
+        "auc": 0.6347403840251118,
+        "lo": 0.6038887581369711,
+        "hi": 0.654761891733391,
+        "bootstrap_valid": 2000
+      },
+      "no_outcome_history": {
+        "auc": 0.5633934323622639,
+        "lo": 0.540655658512467,
+        "hi": 0.585886451074986,
+        "bootstrap_valid": 2000
+      },
+      "process_shape": {
+        "auc": 0.6491770443763805,
+        "lo": 0.6072080293055742,
+        "hi": 0.6839886138923505,
+        "bootstrap_valid": 2000
+      },
+      "last_outcome_baseline": {
+        "auc": 0.7623771066698614,
+        "lo": 0.7434415560918134,
+        "hi": 0.7750648604001069,
+        "bootstrap_valid": 2000
+      },
+      "static_syntax_baseline": {
+        "auc": 0.5362668246739483,
+        "lo": 0.510383300330908,
+        "hi": 0.5612918915162394,
+        "bootstrap_valid": 2000
+      }
+    },
+    "per_assignment": [
+      {
+        "assignment": "Assign10",
+        "n": 1732,
+        "students": 30,
+        "failure_rate": 0.6553117782909931,
+        "metrics": {
+          "process": {
+            "auc": 0.6915650204030431,
+            "lo": 0.5799796249824496,
+            "hi": 0.7722966519744815,
+            "bootstrap_valid": 2000
+          },
+          "syntax_free": {
+            "auc": 0.6915650204030431,
+            "lo": 0.5799796249824496,
+            "hi": 0.7722966519744815,
+            "bootstrap_valid": 2000
+          },
+          "no_outcome_history": {
+            "auc": 0.6291671278566106,
+            "lo": 0.5078002645020022,
+            "hi": 0.715135459350225,
+            "bootstrap_valid": 2000
+          },
+          "process_shape": {
+            "auc": 0.6262081331768977,
+            "lo": 0.4704133039794084,
+            "hi": 0.7386009257831008,
+            "bootstrap_valid": 2000
+          },
+          "last_outcome_baseline": {
+            "auc": 0.8120735837779205,
+            "lo": 0.7657965109524332,
+            "hi": 0.8434914278744635,
+            "bootstrap_valid": 2000
+          },
+          "static_syntax_baseline": {
+            "auc": 0.4976180461780267,
+            "lo": 0.4847954086965623,
+            "hi": 0.5036394421199827,
+            "bootstrap_valid": 2000
+          }
+        }
+      },
+      {
+        "assignment": "Assign11",
+        "n": 1220,
+        "students": 28,
+        "failure_rate": 0.7827868852459017,
+        "metrics": {
+          "process": {
+            "auc": 0.513863479205769,
+            "lo": 0.4164842357816563,
+            "hi": 0.5983425928193719,
+            "bootstrap_valid": 2000
+          },
+          "syntax_free": {
+            "auc": 0.5153531561789984,
+            "lo": 0.4132750179862969,
+            "hi": 0.6029741165257932,
+            "bootstrap_valid": 2000
+          },
+          "no_outcome_history": {
+            "auc": 0.49392472587177716,
+            "lo": 0.4167046433265367,
+            "hi": 0.564508944456656,
+            "bootstrap_valid": 2000
+          },
+          "process_shape": {
+            "auc": 0.5414956040699398,
+            "lo": 0.45971462439550537,
+            "hi": 0.6168419403279725,
+            "bootstrap_valid": 2000
+          },
+          "last_outcome_baseline": {
+            "auc": 0.7272527906747012,
+            "lo": 0.6755381478171314,
+            "hi": 0.776853252942909,
+            "bootstrap_valid": 2000
+          },
+          "static_syntax_baseline": {
+            "auc": 0.4840264743653067,
+            "lo": 0.401667327679125,
+            "hi": 0.5395987324363333,
+            "bootstrap_valid": 2000
+          }
+        }
+      },
+      {
+        "assignment": "Assign12",
+        "n": 1519,
+        "students": 30,
+        "failure_rate": 0.500329163923634,
+        "metrics": {
+          "process": {
+            "auc": 0.6450072810484709,
+            "lo": 0.5817337478555109,
+            "hi": 0.700985987388546,
+            "bootstrap_valid": 2000
+          },
+          "syntax_free": {
+            "auc": 0.6485507246376812,
+            "lo": 0.5994377374309946,
+            "hi": 0.6926059524323532,
+            "bootstrap_valid": 2000
+          },
+          "no_outcome_history": {
+            "auc": 0.5690607447472436,
+            "lo": 0.5356683281561615,
+            "hi": 0.6061044153271294,
+            "bootstrap_valid": 2000
+          },
+          "process_shape": {
+            "auc": 0.6547898897441231,
+            "lo": 0.5945017844688512,
+            "hi": 0.7103146394419969,
+            "bootstrap_valid": 2000
+          },
+          "last_outcome_baseline": {
+            "auc": 0.738358123569794,
+            "lo": 0.7107907505403703,
+            "hi": 0.762178530666432,
+            "bootstrap_valid": 2000
+          },
+          "static_syntax_baseline": {
+            "auc": 0.5354500381388253,
+            "lo": 0.4853896824515473,
+            "hi": 0.5833089189586469,
+            "bootstrap_valid": 2000
+          }
+        }
+      },
+      {
+        "assignment": "Assign13",
+        "n": 971,
+        "students": 21,
+        "failure_rate": 0.7023686920700309,
+        "metrics": {
+          "process": {
+            "auc": 0.6619980923195568,
+            "lo": 0.5679560075433616,
+            "hi": 0.7356601784434941,
+            "bootstrap_valid": 2000
+          },
+          "syntax_free": {
+            "auc": 0.6684466610518626,
+            "lo": 0.5777339712663421,
+            "hi": 0.7367468428130125,
+            "bootstrap_valid": 2000
+          },
+          "no_outcome_history": {
+            "auc": 0.47667404032511745,
+            "lo": 0.3733022212850973,
+            "hi": 0.6045743704221672,
+            "bootstrap_valid": 2000
+          },
+          "process_shape": {
+            "auc": 0.7204487107936154,
+            "lo": 0.6139519614160024,
+            "hi": 0.8016432086763636,
+            "bootstrap_valid": 2000
+          },
+          "last_outcome_baseline": {
+            "auc": 0.7772706978254472,
+            "lo": 0.737272690176605,
+            "hi": 0.8072045082667086,
+            "bootstrap_valid": 2000
+          },
+          "static_syntax_baseline": {
+            "auc": 0.5289754335406752,
+            "lo": 0.46617277939695717,
+            "hi": 0.5911586060886382,
+            "bootstrap_valid": 2000
+          }
+        }
+      },
+      {
+        "assignment": "Assign6",
+        "n": 3366,
+        "students": 41,
+        "failure_rate": 0.14111705288175877,
+        "metrics": {
+          "process": {
+            "auc": 0.6859720730397422,
+            "lo": 0.6400437410928403,
+            "hi": 0.7283715565143677,
+            "bootstrap_valid": 2000
+          },
+          "syntax_free": {
+            "auc": 0.6203666551366309,
+            "lo": 0.5846620666694771,
+            "hi": 0.6582592770028266,
+            "bootstrap_valid": 2000
+          },
+          "no_outcome_history": {
+            "auc": 0.6083784521837281,
+            "lo": 0.5749421609380008,
+            "hi": 0.641091112668193,
+            "bootstrap_valid": 2000
+          },
+          "process_shape": {
+            "auc": 0.683864989349888,
+            "lo": 0.6321263819857851,
+            "hi": 0.7335455922380877,
+            "bootstrap_valid": 2000
+          },
+          "last_outcome_baseline": {
+            "auc": 0.6959962861148028,
+            "lo": 0.6638567975173402,
+            "hi": 0.7279486897347427,
+            "bootstrap_valid": 2000
+          },
+          "static_syntax_baseline": {
+            "auc": 0.5984470862385989,
+            "lo": 0.5499499065817506,
+            "hi": 0.6412761536626312,
+            "bootstrap_valid": 2000
+          }
+        }
+      },
+      {
+        "assignment": "Assign7",
+        "n": 4310,
+        "students": 34,
+        "failure_rate": 0.3974477958236659,
+        "metrics": {
+          "process": {
+            "auc": 0.5921065911742882,
+            "lo": 0.5454889857466142,
+            "hi": 0.6381988734472219,
+            "bootstrap_valid": 2000
+          },
+          "syntax_free": {
+            "auc": 0.5908215977796465,
+            "lo": 0.5527793881519727,
+            "hi": 0.6297286063592291,
+            "bootstrap_valid": 2000
+          },
+          "no_outcome_history": {
+            "auc": 0.513935316716648,
+            "lo": 0.46759798428887084,
+            "hi": 0.5759151389966632,
+            "bootstrap_valid": 2000
+          },
+          "process_shape": {
+            "auc": 0.601759158542312,
+            "lo": 0.5506690458798449,
+            "hi": 0.6624925337293038,
+            "bootstrap_valid": 2000
+          },
+          "last_outcome_baseline": {
+            "auc": 0.7416189950189507,
+            "lo": 0.7169326372626358,
+            "hi": 0.7621456116936054,
+            "bootstrap_valid": 2000
+          },
+          "static_syntax_baseline": {
+            "auc": 0.5145716879753256,
+            "lo": 0.4564055656460902,
+            "hi": 0.5687876289137674,
+            "bootstrap_valid": 2000
+          }
+        }
+      },
+      {
+        "assignment": "Assign8",
+        "n": 1558,
+        "students": 32,
+        "failure_rate": 0.5070603337612324,
+        "metrics": {
+          "process": {
+            "auc": 0.6717629219409282,
+            "lo": 0.5794310078872568,
+            "hi": 0.742245242394379,
+            "bootstrap_valid": 2000
+          },
+          "syntax_free": {
+            "auc": 0.6666922138713081,
+            "lo": 0.5622107329543186,
+            "hi": 0.7409179657227694,
+            "bootstrap_valid": 2000
+          },
+          "no_outcome_history": {
+            "auc": 0.5968362671413502,
+            "lo": 0.5183163931620547,
+            "hi": 0.6750100289605452,
+            "bootstrap_valid": 2000
+          },
+          "process_shape": {
+            "auc": 0.6657362539556962,
+            "lo": 0.5668764431325632,
+            "hi": 0.7686094110442442,
+            "bootstrap_valid": 2000
+          },
+          "last_outcome_baseline": {
+            "auc": 0.7986723694620254,
+            "lo": 0.7576496621784106,
+            "hi": 0.8316294838307486,
+            "bootstrap_valid": 2000
+          },
+          "static_syntax_baseline": {
+            "auc": 0.5735413370253165,
+            "lo": 0.5036833849093947,
+            "hi": 0.6546097008195049,
+            "bootstrap_valid": 2000
+          }
+        }
+      },
+      {
+        "assignment": "Assign9",
+        "n": 1813,
+        "students": 30,
+        "failure_rate": 0.5471594043022614,
+        "metrics": {
+          "process": {
+            "auc": 0.6711505687399316,
+            "lo": 0.5999203306101644,
+            "hi": 0.7331757652597162,
+            "bootstrap_valid": 2000
+          },
+          "syntax_free": {
+            "auc": 0.6761270431417233,
+            "lo": 0.613701816272703,
+            "hi": 0.7265496153922516,
+            "bootstrap_valid": 2000
+          },
+          "no_outcome_history": {
+            "auc": 0.6191707840556363,
+            "lo": 0.5730644172565728,
+            "hi": 0.6607553034656506,
+            "bootstrap_valid": 2000
+          },
+          "process_shape": {
+            "auc": 0.6991136153785706,
+            "lo": 0.6341959874578882,
+            "hi": 0.7597038959067732,
+            "bootstrap_valid": 2000
+          },
+          "last_outcome_baseline": {
+            "auc": 0.8077740069152489,
+            "lo": 0.7708416000192739,
+            "hi": 0.8375160484340938,
+            "bootstrap_valid": 2000
+          },
+          "static_syntax_baseline": {
+            "auc": 0.5575044939295116,
+            "lo": 0.47997038272768877,
+            "hi": 0.6281600413965431,
+            "bootstrap_valid": 2000
+          }
+        }
+      }
+    ],
+    "deltas": {
+      "shape_minus_process": {
+        "delta": 0.007498790892414231,
+        "lo": -0.022848665177853375,
+        "hi": 0.037262514167325865,
+        "bootstrap_valid": 2000
+      },
+      "nohistory_minus_syntaxfree": {
+        "delta": -0.07134695166284788,
+        "lo": -0.08561876189382628,
+        "hi": -0.05170014280922331,
+        "bootstrap_valid": 2000
+      }
+    }
+  },
+  "clean": {
+    "n": 14354,
+    "students": 43,
+    "failure_rate": 0.44008638706980635,
+    "metrics": {
+      "process": {
+        "auc": 0.6219327040619637,
+        "lo": 0.589556865411243,
+        "hi": 0.646732402995379,
+        "bootstrap_valid": 2000
+      },
+      "syntax_free": {
+        "auc": 0.6219327040619637,
+        "lo": 0.589556865411243,
+        "hi": 0.646732402995379,
+        "bootstrap_valid": 2000
+      },
+      "no_outcome_history": {
+        "auc": 0.5639705058755463,
+        "lo": 0.5387305526738595,
+        "hi": 0.5858932456854004,
+        "bootstrap_valid": 2000
+      },
+      "process_shape": {
+        "auc": 0.6307554381560716,
+        "lo": 0.5855415737066452,
+        "hi": 0.667255635729242,
+        "bootstrap_valid": 2000
+      },
+      "last_outcome_baseline": {
+        "auc": 0.7644519691085435,
+        "lo": 0.7454214895221121,
+        "hi": 0.7779772710016765,
+        "bootstrap_valid": 2000
+      },
+      "static_syntax_baseline": {
+        "auc": 0.5,
+        "lo": 0.5,
+        "hi": 0.5,
+        "bootstrap_valid": 2000
+      }
+    },
+    "per_assignment": [
+      {
+        "assignment": "Assign10",
+        "n": 1720,
+        "students": 30,
+        "failure_rate": 0.6563953488372093,
+        "metrics": {
+          "process": {
+            "auc": 0.7148458048765135,
+            "lo": 0.6032419944251228,
+            "hi": 0.7975000303970667,
+            "bootstrap_valid": 2000
+          },
+          "syntax_free": {
+            "auc": 0.7148458048765135,
+            "lo": 0.6032419944251228,
+            "hi": 0.7975000303970667,
+            "bootstrap_valid": 2000
+          },
+          "no_outcome_history": {
+            "auc": 0.6455842659077182,
+            "lo": 0.5267659764967669,
+            "hi": 0.73257081829314,
+            "bootstrap_valid": 2000
+          },
+          "process_shape": {
+            "auc": 0.6463201341648195,
+            "lo": 0.49874782872221773,
+            "hi": 0.7573514164807733,
+            "bootstrap_valid": 2000
+          },
+          "last_outcome_baseline": {
+            "auc": 0.8143701132577682,
+            "lo": 0.7676152686486817,
+            "hi": 0.8451835055946304,
+            "bootstrap_valid": 2000
+          },
+          "static_syntax_baseline": {
+            "auc": 0.5,
+            "lo": 0.5,
+            "hi": 0.5,
+            "bootstrap_valid": 2000
+          }
+        }
+      },
+      {
+        "assignment": "Assign11",
+        "n": 1117,
+        "students": 28,
+        "failure_rate": 0.7887197851387645,
+        "metrics": {
+          "process": {
+            "auc": 0.48386848534985283,
+            "lo": 0.398099090424731,
+            "hi": 0.557545914573678,
+            "bootstrap_valid": 2000
+          },
+          "syntax_free": {
+            "auc": 0.48386848534985283,
+            "lo": 0.398099090424731,
+            "hi": 0.557545914573678,
+            "bootstrap_valid": 2000
+          },
+          "no_outcome_history": {
+            "auc": 0.46290809750091383,
+            "lo": 0.4021302301400863,
+            "hi": 0.5205710968672902,
+            "bootstrap_valid": 2000
+          },
+          "process_shape": {
+            "auc": 0.5368033244194771,
+            "lo": 0.4418749927606573,
+            "hi": 0.6226498483631719,
+            "bootstrap_valid": 2000
+          },
+          "last_outcome_baseline": {
+            "auc": 0.723758633294215,
+            "lo": 0.6758476440452232,
+            "hi": 0.7741390176234346,
+            "bootstrap_valid": 2000
+          },
+          "static_syntax_baseline": {
+            "auc": 0.5,
+            "lo": 0.5,
+            "hi": 0.5,
+            "bootstrap_valid": 2000
+          }
+        }
+      },
+      {
+        "assignment": "Assign12",
+        "n": 1289,
+        "students": 30,
+        "failure_rate": 0.4794414274631497,
+        "metrics": {
+          "process": {
+            "auc": 0.6298814984156381,
+            "lo": 0.5703866074979954,
+            "hi": 0.6851877703533787,
+            "bootstrap_valid": 2000
+          },
+          "syntax_free": {
+            "auc": 0.6298814984156381,
+            "lo": 0.5703866074979954,
+            "hi": 0.6851877703533787,
+            "bootstrap_valid": 2000
+          },
+          "no_outcome_history": {
+            "auc": 0.5936051587014503,
+            "lo": 0.5520053696997589,
+            "hi": 0.6354322777788393,
+            "bootstrap_valid": 2000
+          },
+          "process_shape": {
+            "auc": 0.6296162323537781,
+            "lo": 0.5687015561045731,
+            "hi": 0.6859834956197141,
+            "bootstrap_valid": 2000
+          },
+          "last_outcome_baseline": {
+            "auc": 0.738142607034856,
+            "lo": 0.7087121163763654,
+            "hi": 0.7623073679887074,
+            "bootstrap_valid": 2000
+          },
+          "static_syntax_baseline": {
+            "auc": 0.5,
+            "lo": 0.5,
+            "hi": 0.5,
+            "bootstrap_valid": 2000
+          }
+        }
+      },
+      {
+        "assignment": "Assign13",
+        "n": 871,
+        "students": 21,
+        "failure_rate": 0.6888633754305397,
+        "metrics": {
+          "process": {
+            "auc": 0.6793111931119311,
+            "lo": 0.5751453469159853,
+            "hi": 0.7591126133696934,
+            "bootstrap_valid": 2000
+          },
+          "syntax_free": {
+            "auc": 0.6793111931119311,
+            "lo": 0.5751453469159853,
+            "hi": 0.7591126133696934,
+            "bootstrap_valid": 2000
+          },
+          "no_outcome_history": {
+            "auc": 0.5041020910209102,
+            "lo": 0.4203042831068849,
+            "hi": 0.6196547894814436,
+            "bootstrap_valid": 2000
+          },
+          "process_shape": {
+            "auc": 0.6761316113161132,
+            "lo": 0.5239058126867968,
+            "hi": 0.8043708779432198,
+            "bootstrap_valid": 2000
+          },
+          "last_outcome_baseline": {
+            "auc": 0.7861931119311193,
+            "lo": 0.7366277929957897,
+            "hi": 0.8216348119966101,
+            "bootstrap_valid": 2000
+          },
+          "static_syntax_baseline": {
+            "auc": 0.5,
+            "lo": 0.5,
+            "hi": 0.5,
+            "bootstrap_valid": 2000
+          }
+        }
+      },
+      {
+        "assignment": "Assign6",
+        "n": 3014,
+        "students": 41,
+        "failure_rate": 0.11446582614465826,
+        "metrics": {
+          "process": {
+            "auc": 0.6037173994493948,
+            "lo": 0.5597102671861572,
+            "hi": 0.6468322945941051,
+            "bootstrap_valid": 2000
+          },
+          "syntax_free": {
+            "auc": 0.6037173994493948,
+            "lo": 0.5597102671861572,
+            "hi": 0.6468322945941051,
+            "bootstrap_valid": 2000
+          },
+          "no_outcome_history": {
+            "auc": 0.5958264779187776,
+            "lo": 0.5515336923946318,
+            "hi": 0.6370328428398325,
+            "bootstrap_valid": 2000
+          },
+          "process_shape": {
+            "auc": 0.5990741796580167,
+            "lo": 0.5625525963671416,
+            "hi": 0.6411709196035075,
+            "bootstrap_valid": 2000
+          },
+          "last_outcome_baseline": {
+            "auc": 0.7099076351670549,
+            "lo": 0.6730732486592655,
+            "hi": 0.7436047873070956,
+            "bootstrap_valid": 2000
+          },
+          "static_syntax_baseline": {
+            "auc": 0.5,
+            "lo": 0.5,
+            "hi": 0.5,
+            "bootstrap_valid": 2000
+          }
+        }
+      },
+      {
+        "assignment": "Assign7",
+        "n": 3573,
+        "students": 34,
+        "failure_rate": 0.389028827315981,
+        "metrics": {
+          "process": {
+            "auc": 0.5930694015561715,
+            "lo": 0.5401078252425537,
+            "hi": 0.6482282130664155,
+            "bootstrap_valid": 2000
+          },
+          "syntax_free": {
+            "auc": 0.5930694015561715,
+            "lo": 0.5401078252425537,
+            "hi": 0.6482282130664155,
+            "bootstrap_valid": 2000
+          },
+          "no_outcome_history": {
+            "auc": 0.5291299347146196,
+            "lo": 0.47894028765712376,
+            "hi": 0.5855434849929643,
+            "bootstrap_valid": 2000
+          },
+          "process_shape": {
+            "auc": 0.6073769843493048,
+            "lo": 0.5578783513658122,
+            "hi": 0.6628585436991813,
+            "bootstrap_valid": 2000
+          },
+          "last_outcome_baseline": {
+            "auc": 0.7414221073896723,
+            "lo": 0.7125256575140231,
+            "hi": 0.7638282872780638,
+            "bootstrap_valid": 2000
+          },
+          "static_syntax_baseline": {
+            "auc": 0.5,
+            "lo": 0.5,
+            "hi": 0.5,
+            "bootstrap_valid": 2000
+          }
+        }
+      },
+      {
+        "assignment": "Assign8",
+        "n": 1314,
+        "students": 30,
+        "failure_rate": 0.4634703196347032,
+        "metrics": {
+          "process": {
+            "auc": 0.6698692193923301,
+            "lo": 0.5842651776315029,
+            "hi": 0.7416271608748132,
+            "bootstrap_valid": 2000
+          },
+          "syntax_free": {
+            "auc": 0.6698692193923301,
+            "lo": 0.5842651776315029,
+            "hi": 0.7416271608748132,
+            "bootstrap_valid": 2000
+          },
+          "no_outcome_history": {
+            "auc": 0.6454226787315562,
+            "lo": 0.5772917206722684,
+            "hi": 0.7117469791736034,
+            "bootstrap_valid": 2000
+          },
+          "process_shape": {
+            "auc": 0.6798274115222024,
+            "lo": 0.5769195906415348,
+            "hi": 0.7773526252739762,
+            "bootstrap_valid": 2000
+          },
+          "last_outcome_baseline": {
+            "auc": 0.7944729762778185,
+            "lo": 0.7499095407446219,
+            "hi": 0.8308073059645298,
+            "bootstrap_valid": 2000
+          },
+          "static_syntax_baseline": {
+            "auc": 0.5,
+            "lo": 0.5,
+            "hi": 0.5,
+            "bootstrap_valid": 2000
+          }
+        }
+      },
+      {
+        "assignment": "Assign9",
+        "n": 1456,
+        "students": 29,
+        "failure_rate": 0.5116758241758241,
+        "metrics": {
+          "process": {
+            "auc": 0.6008986303438771,
+            "lo": 0.5261809502612562,
+            "hi": 0.6685258238533694,
+            "bootstrap_valid": 2000
+          },
+          "syntax_free": {
+            "auc": 0.6008986303438771,
+            "lo": 0.5261809502612562,
+            "hi": 0.6685258238533694,
+            "bootstrap_valid": 2000
+          },
+          "no_outcome_history": {
+            "auc": 0.5351853425084246,
+            "lo": 0.48088588864521725,
+            "hi": 0.5864270397172475,
+            "bootstrap_valid": 2000
+          },
+          "process_shape": {
+            "auc": 0.6708936274648618,
+            "lo": 0.5885695013552599,
+            "hi": 0.7472271913673767,
+            "bootstrap_valid": 2000
+          },
+          "last_outcome_baseline": {
+            "auc": 0.807348568515844,
+            "lo": 0.7677717045456923,
+            "hi": 0.8429612667673545,
+            "bootstrap_valid": 2000
+          },
+          "static_syntax_baseline": {
+            "auc": 0.5,
+            "lo": 0.5,
+            "hi": 0.5,
+            "bootstrap_valid": 2000
+          }
+        }
+      }
+    ],
+    "deltas": {
+      "shape_minus_process": {
+        "delta": 0.008822734094107942,
+        "lo": -0.019644429016292292,
+        "hi": 0.038510620336847136,
+        "bootstrap_valid": 2000
+      },
+      "nohistory_minus_syntaxfree": {
+        "delta": -0.057962198186417346,
+        "lo": -0.07229278038281442,
+        "hi": -0.03943808734292563,
+        "bootstrap_valid": 2000
+      }
+    }
+  }
+}

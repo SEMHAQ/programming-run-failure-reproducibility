@@ -1,0 +1,110 @@
+{
+  "weighted_auc_reference_checks": 100,
+  "2019": {
+    "original_eligible_n": 29457,
+    "primary_n": 29457,
+    "ambiguous_excluded": 0,
+    "primary_success": 17888,
+    "primary_failure": 11569,
+    "primary_clean": 20887,
+    "clean_edits_since_clean_zero": 20307,
+    "code_truncated": 0,
+    "empty_code_eligible": 16,
+    "local_import_original": 6,
+    "local_import_primary": 6,
+    "module_sensitivity": {}
+  },
+  "2021": {
+    "original_eligible_n": 17371,
+    "primary_n": 16489,
+    "ambiguous_excluded": 882,
+    "primary_success": 8987,
+    "primary_failure": 7502,
+    "primary_clean": 14354,
+    "clean_edits_since_clean_zero": 14354,
+    "code_truncated": 0,
+    "empty_code_eligible": 0,
+    "local_import_original": 4453,
+    "local_import_primary": 4363,
+    "module_sensitivity": {
+      "all": {
+        "n": 655,
+        "assignments": [
+          "Assign10",
+          "Assign12",
+          "Assign13",
+          "Assign6",
+          "Assign7",
+          "Assign8",
+          "Assign9"
+        ],
+        "metrics": {
+          "3B": {
+            "auc": 0.3694887178305487,
+            "lo": 0.30521704515725967,
+            "hi": 0.4788576767274817,
+            "bootstrap_valid": 1898
+          },
+          "7B": {
+            "auc": 0.6596858602071499,
+            "lo": 0.5501190067571308,
+            "hi": 0.7363949375205616,
+            "bootstrap_valid": 1898
+          },
+          "14B": {
+            "auc": 0.7619331154509835,
+            "lo": 0.636442685837076,
+            "hi": 0.82954992889692,
+            "bootstrap_valid": 1898
+          },
+          "32B": {
+            "auc": 0.7930632727197793,
+            "lo": 0.7295105618384627,
+            "hi": 0.843801286034811,
+            "bootstrap_valid": 1898
+          }
+        },
+        "excluded_local_import": 223
+      },
+      "clean": {
+        "n": 657,
+        "assignments": [
+          "Assign10",
+          "Assign12",
+          "Assign13",
+          "Assign6",
+          "Assign7",
+          "Assign8",
+          "Assign9"
+        ],
+        "metrics": {
+          "3B": {
+            "auc": 0.5023616694955614,
+            "lo": 0.4227850097055446,
+            "hi": 0.5860022579708152,
+            "bootstrap_valid": 1944
+          },
+          "7B": {
+            "auc": 0.6567711037049967,
+            "lo": 0.5616884177736107,
+            "hi": 0.7285601438390161,
+            "bootstrap_valid": 1944
+          },
+          "14B": {
+            "auc": 0.7635951530829211,
+            "lo": 0.6815952620529127,
+            "hi": 0.8237039865827599,
+            "bootstrap_valid": 1944
+          },
+          "32B": {
+            "auc": 0.8432966099559823,
+            "lo": 0.7553611654110575,
+            "hi": 0.8975070687217273,
+            "bootstrap_valid": 1944
+          }
+        },
+        "excluded_local_import": 227
+      }
+    }
+  }
+}
