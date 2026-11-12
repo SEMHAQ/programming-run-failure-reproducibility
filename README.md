@@ -47,7 +47,7 @@ The original LLM sampler draws 1,000 events from each pool with `random.Random(2
 - `revision/analysis/*predictions*.csv`: held-out classical and nested fusion predictions, with identifiers and outcomes.
 - `revision/analysis/*.json`: bootstrap intervals, paired differences, calibration, sensitivity results, and runtime versions.
 - `revision/analysis/repeat_check_responses.jsonl`: separate current repeatability audit, not replacements for historical evaluation scores. Ten prompts were requested twice per model. Prompt source text is not redistributed here.
-- `source_preparation/`: original replay/outcome scripts, preserved for inspection. Their historical assumptions and limitations are described below; they are not a validated generic ProgSnap2 parser.
+- `source_preparation/`: original replay/outcome scripts and an exact historical scoring-parser function excerpt, preserved for inspection. The parser excerpt performs no API calls or configuration loading. Historical preparation assumptions and limitations are described below; these scripts are not a validated generic ProgSnap2 parser.
 
 All assignment cells with both outcomes and at least five students enter the main LLM macro AUC, including small cells previously excluded by a 50-event threshold. `sensitivity_*.json` retains that historical threshold as an explicit sensitivity. The main process model fits separately within each assignment; sampled classical comparators fit across assignments with student-disjoint folds. Cross-year models fit only the source cohort. These training populations should not be interchanged.
 
