@@ -23,7 +23,9 @@ python revision/reanalyse.py --part all --refit
 
 No live LLM calls are needed for either command. Saved language-model scores remain fixed. Full refitting can take several minutes. Differences in libraries or CPU numerical behavior can change fitted predictions; versions are pinned below and the released run environment is in `revision/analysis/runtime.json`.
 
-The released derived-data package was checked by recomputing all nine primary process, LLM, calibration, sensitivity and transfer summary JSON files; they matched the authoring analysis exactly. To recreate the four main vector figures, optionally install `matplotlib==3.11.2` and run `python revision/make_revision_figures.py`.
+The released derived-data package was checked by recomputing all nine primary process, LLM, calibration, sensitivity and transfer summary JSON files; they matched the authoring analysis exactly. The original main-table sequence and eight retained figure designs are preserved in the final revision. To recreate these figures with corrected membership and values, optionally install `matplotlib==3.11.2` and run `python revision/make_restored_figures.py`. The earlier `make_revision_figures.py` produces an intermediate, superseded four-figure presentation.
+
+The original recovery-subset comparison is updated in `revision/analysis/recovery.json`. Run `python revision/restore_table_data.py` to reproduce its student-cluster intervals from released held-out scores. Remove only `revision/analysis/recovery_predictions_2019.csv` and `recovery_predictions_2021.csv` before that command if you wish to refit the recovery models. These models fit within assignment among primary events whose preceding labelled event failed; the syntax comparator is the fixed score `1 - recorded_clean`. Cumulative prior-failure counts can still vary in this subset, so it is not a history-free experiment.
 
 ## Populations and samples
 

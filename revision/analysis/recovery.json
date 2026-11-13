@@ -1,0 +1,119 @@
+{
+  "2019": {
+    "n": 11523,
+    "students": 228,
+    "metrics": {
+      "syntax_free": {
+        "auc": 0.7302140879157692,
+        "lo": 0.7128807193427042,
+        "hi": 0.7451078337821186,
+        "bootstrap_valid": 2000
+      },
+      "process": {
+        "auc": 0.8201213802869225,
+        "lo": 0.8011274594091722,
+        "hi": 0.83787285063871,
+        "bootstrap_valid": 2000
+      },
+      "static_syntax_baseline": {
+        "auc": 0.7861658338052229,
+        "lo": 0.7667353710488629,
+        "hi": 0.8052344417604875,
+        "bootstrap_valid": 2000
+      }
+    },
+    "per_assignment": [
+      {
+        "assignment": "p4f",
+        "n": 1081,
+        "failure_rate": 0.6577243293246994
+      },
+      {
+        "assignment": "p5f",
+        "n": 377,
+        "failure_rate": 0.6604774535809018
+      },
+      {
+        "assignment": "p6f",
+        "n": 2767,
+        "failure_rate": 0.661004698229129
+      },
+      {
+        "assignment": "p7f",
+        "n": 2662,
+        "failure_rate": 0.7062359128474831
+      },
+      {
+        "assignment": "p8f",
+        "n": 4636,
+        "failure_rate": 0.8039257981018119
+      }
+    ]
+  },
+  "2021": {
+    "n": 7461,
+    "students": 42,
+    "metrics": {
+      "syntax_free": {
+        "auc": 0.5704400285106008,
+        "lo": 0.5387853248180644,
+        "hi": 0.6005950329029409,
+        "bootstrap_valid": 2000
+      },
+      "process": {
+        "auc": 0.5756885084634171,
+        "lo": 0.5420040539848997,
+        "hi": 0.6088168263490248,
+        "bootstrap_valid": 2000
+      },
+      "static_syntax_baseline": {
+        "auc": 0.5294227547387746,
+        "lo": 0.5059891600559209,
+        "hi": 0.5502121536121369,
+        "bootstrap_valid": 2000
+      }
+    },
+    "per_assignment": [
+      {
+        "assignment": "Assign10",
+        "n": 1123,
+        "failure_rate": 0.8673196794300979
+      },
+      {
+        "assignment": "Assign11",
+        "n": 944,
+        "failure_rate": 0.8802966101694916
+      },
+      {
+        "assignment": "Assign12",
+        "n": 752,
+        "failure_rate": 0.738031914893617
+      },
+      {
+        "assignment": "Assign13",
+        "n": 673,
+        "failure_rate": 0.8662704309063893
+      },
+      {
+        "assignment": "Assign6",
+        "n": 469,
+        "failure_rate": 0.47121535181236673
+      },
+      {
+        "assignment": "Assign7",
+        "n": 1725,
+        "failure_rate": 0.6817391304347826
+      },
+      {
+        "assignment": "Assign8",
+        "n": 782,
+        "failure_rate": 0.7966751918158568
+      },
+      {
+        "assignment": "Assign9",
+        "n": 993,
+        "failure_rate": 0.8197381671701913
+      }
+    ]
+  }
+}
